@@ -1,0 +1,9 @@
+<div *ngIf="loading">
+    <app-products
+    *ngFor="let product of products"
+    [product]="product">
+</app-products>
+</div>
+<div class="progress-bar" *ngIf="!loading">
+    <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+</div>

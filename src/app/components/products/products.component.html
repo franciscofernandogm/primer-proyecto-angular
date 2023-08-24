@@ -1,0 +1,11 @@
+<ng-container *ngIf="product">
+    <article class="product">
+        <h4>{{product.title}}</h4>
+        <div>
+            <img [ngSrc]="product.images[0]" [alt]="product.title" width="500" height="500"/>
+        </div>
+        <!--<div>
+        <button (click)="addProduct()">Agregar</button>
+        </div>-->
+    </article>
+</ng-container>
