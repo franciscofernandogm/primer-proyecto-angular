@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
-
+import {MatTableModule} from '@angular/material/table';
 
 @NgModule({
   declarations: [],
@@ -13,7 +13,8 @@ import { MatButtonModule } from '@angular/material/button';
   exports:[
     MatProgressBarModule,
     MatToolbarModule,
-    MatButtonModule
+    MatButtonModule,
+    MatTableModule,
   ]
 })
 export class MaterialModule { }

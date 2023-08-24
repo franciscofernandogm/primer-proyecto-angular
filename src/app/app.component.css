@@ -1,0 +1,9 @@
+#cabecera{
+    position: sticky;
+    top: 0px;
+}
+
+#cabecera mat-toolbar{
+    display: flex;
+    justify-content: space-between;
+}

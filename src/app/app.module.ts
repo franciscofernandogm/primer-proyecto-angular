@@ -10,6 +10,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { ProductComponent } from './pages/product/product.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
+import { TableComponent } from './components/table/table.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { MaterialModule } from './material.module';
     ProductsComponent,
     ContactComponent,
     ProductComponent,
+    TableComponent,
   ],
   imports: [
     BrowserModule,

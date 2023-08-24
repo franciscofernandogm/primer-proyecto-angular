@@ -1,3 +1,9 @@
 .progress-bar{
     padding: 100px 20px;
 }
+
+#productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

@@ -1,11 +1,11 @@
-<header>
-    <nav>
+<header id="cabecera">
         <mat-toolbar color="primary">
-            <span>Logo</span>
-            <button mat-button routerLink="/product">Productos</button>
-            <button mat-button routerLink="/contact">Contáctanos</button>
+            <span routerLink="/">Logo</span>
+            <nav>
+                <button mat-button routerLink="/product">Productos</button>
+                <button mat-button routerLink="/contact">Contáctanos</button>
+            </nav>
         </mat-toolbar>
-    </nav>
 </header>
 <main>
    <router-outlet></router-outlet>
